@@ -1,0 +1,83 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #fce4ec; /* soft pastel pink */
+    color: #333;
+  }
+  
+  /* App Bar styled in Material 3 fashion */
+  .app-bar {
+    background-color: #ec407a; /* vibrant pink */
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  }
+  .app-bar-title {
+    margin: 0;
+    font-size: 1.5rem; /* increased font size */
+    font-weight: 500;
+    font-family: 'Knewave', cursive; /* use Knewave font */
+  }
+  
+  /* Container */
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 16px;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 24px;
+  }
+  
+  /* Material 3–inspired button */
+  .md3-button {
+    background-color: #f48fb1; /* light pink */
+    border: none;
+    color: #fff;
+    padding: 16px 32px; /* increased padding */
+    font-size: 1.5rem; /* increased font size */
+    font-family: 'Knewave', cursive; /* use Knewave font */
+    border-radius: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .md3-button:hover {
+    background-color: #ec407a;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    /* Removed the transform property to eliminate the bounce effect */
+  }
+  .card-title {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #d81b60;
+  }
+  .card-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 16px 0;
+  }
+  .card-location a {
+    color: #3949ab;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .card-location a:hover {
+    text-decoration: underline;
+  }

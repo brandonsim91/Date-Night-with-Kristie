@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What should Brandon and Kristie do for a date?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Knewave Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Knewave&display=swap">
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy8P5zXVQpMxjNrgumqRXRMEFvnaXNpIU&callback=initMap"></script>
+</head>
+<body>
+  <header class="app-bar">
+    <h1 class="app-bar-title">What should Brandon and Kristie do for a date?</h1>
+  </header>
+  
+  <main class="container">
+    <div class="button-group">
+      <button id="weeknightBtn" class="md3-button">Weeknight Date</button>
+      <button id="weekendBtn" class="md3-button">Weekend Date</button>
+    </div>
+    
+    <div id="ideaContainer" class="card" style="display: none;">
+      <div class="card-content">
+        <h2 id="ideaTitle" class="card-title"></h2>
+        <p id="ideaDescription" class="card-description"></p>
+        <p class="card-location">
+          Location: <a id="ideaLocation" href="" target="_blank">View on Google Maps</a>
+        </p>
+      </div>
+    </div>
+    <!-- Google Map Container -->
+
+  </main>
+  
+  <!-- Our JavaScript -->
+  <script src="scripts/main.js"></script>
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy8P5zXVQpMxjNrgumqRXRMEFvnaXNpIU&libraries=places"></script>
+</body>
+</html>
